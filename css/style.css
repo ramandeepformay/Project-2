@@ -37,7 +37,6 @@ header{
     font-size:1.4rem;
     font-weight:bolder;
     text-transform: uppercase; 
-
 }
 .nav-bar li a:hover, .bottom-bar li a:hover{
     border-bottom:5px solid rgb(238, 234, 234);
@@ -45,7 +44,6 @@ header{
     background-color:black;
     color:white;
 }
-
 .profile img{
     max-width:80%;
 }
@@ -94,7 +92,6 @@ h2{
     padding:10px;
     border-top:2px solid rgb(247,247,247);
 }
-
 .skill-cell{
     display:block;
     font-size:15rem;
@@ -104,7 +101,6 @@ h2{
     background-color:rgb(247,247,247);
     
 }
-
 /* footer styling */
 footer{
     background-color:rgb(247, 247, 247);
@@ -134,7 +130,7 @@ footer{
 }
 .bottom span{
     float:left;
-   font-size:1.2rem;
+    font-size:1.2rem;
 }
 .bottom .bottom-link{
     float:right;
@@ -148,8 +144,8 @@ footer{
     display:none;
 }
 /* media queries  */
-/* min-width:768px */
 
+/* min-width:768px */
 @media(min-width:768px){
     /* header styling */
     header{
@@ -157,13 +153,11 @@ footer{
     }
     .nav-bar li{
         display: inline-block;
-        padding:5px 20px;;
+        padding:5px;
         background:none;
-        
     }
     .nav-bar li a{
         font-size:1.5rem;
-       
     }
     .info-container{
         padding-bottom:40px
@@ -187,9 +181,7 @@ footer{
     .portfolio-container{
         width:90%;
         margin: auto;
-
     }
-    
     .col{
         width:calc(50% - 40px);
         margin: auto;
@@ -207,6 +199,7 @@ footer{
         width:calc(50% - 20px);
         margin:10px
     }
+
     /* footer styling */
     .bottom{
        padding-bottom:50px;
@@ -247,6 +240,8 @@ footer{
     }
     
 }
+
+/* media queries min width:1024px */
 @media(min-width:1024px){
     /* header styling */
     .title-bar{
@@ -265,11 +260,12 @@ footer{
         width:50%;
         padding-left:20px;;
     }
+    
     /* main styling */
-
     .skill-cell{
         width:calc(25% - 20px);
     }
+    
     /* footer styling */
     .col{
         width:33%;
