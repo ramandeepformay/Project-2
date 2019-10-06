@@ -263,12 +263,13 @@ footer{
     
     /* main styling */
     .skill-cell{
+       
         width:calc(25% - 20px);
     }
     
     /* footer styling */
     .col{
-        width:33%;
+        width:32%;
         float:left;
         padding:0;
     }
